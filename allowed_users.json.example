@@ -1,0 +1,12 @@
+{
+    "users": [
+      {
+        "name": "user1_public_key",
+        "tg_name": "username1"
+      },
+      {
+        "name": "user2_public_key",
+        "tg_name": "username2"
+      }
+    ]
+  }

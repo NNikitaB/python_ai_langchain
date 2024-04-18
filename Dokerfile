@@ -1,0 +1,8 @@
+FROM python:3.9
+WORKDIR /code
+COPY ./requirements.txt .
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+COPY ./code .
+COPY ./allowed_users.json .
+EXPOSE 8080
+CMD ["python", "main.py"]

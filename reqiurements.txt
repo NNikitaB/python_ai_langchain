@@ -1,0 +1,9 @@
+langchain==0.1.12
+logging==0.4.9.6
+configparser
+telethon
+python-dotenv
+langchain-community==0.0.33
+openai
+grpcio
+yandexcloud
